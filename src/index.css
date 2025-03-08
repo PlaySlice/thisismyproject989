@@ -1,0 +1,136 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f7fa;
+  color: #333;
+}
+
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+  max-width: 800px;
+}
+
+.header h1 {
+  font-size: 2.5em;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.header .description {
+  font-size: 1.1em;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.cta-container {
+  margin-top: 20px;
+}
+
+.cta-button {
+  background-color: #28a745;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #218838;
+}
+
+.features, .signup-form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+  max-width: 800px;
+}
+
+.features h2, .signup-form h2 {
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.features ul {
+  list-style: none;
+  padding: 0;
+}
+
+.features li {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.features li:last-child {
+  border-bottom: none;
+}
+
+.signup-form p {
+  margin-bottom: 20px;
+}
+
+.signup-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.email-input {
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.submit-button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  color: #777;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 30px 15px;
+  }
+  .header h1 {
+    font-size: 2em;
+  }
+  .features, .signup-form {
+    padding: 20px;
+  }
+}
